@@ -24,5 +24,5 @@ if count >= 50:
     os.system("""osascript -e 'tell app "System Events" to display dialog "已经打开50次" buttons "OK"'""")
 else:
     open_google()
-    os.system("""osascript -e 'tell app "System Events" to display dialog "test" buttons "OK"'""")
+    os.system("""osascript -e 'tell app "System Events" to display dialog "text" buttons "OK"'""")
     save_count(count + 1)
